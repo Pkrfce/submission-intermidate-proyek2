@@ -1,0 +1,80 @@
+{
+  "name": "StoryHub - Platform Berbagi Cerita",
+  "short_name": "StoryHub",
+  "description": "StoryHub – Platform berbagi cerita dengan peta interaktif",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b0a15",
+  "theme_color": "#a56bff",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "id",
+  "categories": ["social", "entertainment", "books"],
+  "icons": [
+    {
+      "src": "/assets/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/assets/screenshots/mobile-home.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Halaman Beranda StoryHub"
+    },
+    {
+      "src": "/assets/screenshots/desktop-map.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Peta Interaktif StoryHub"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Tambah Cerita Baru",
+      "short_name": "Tambah",
+      "description": "Buat dan bagikan cerita baru",
+      "url": "/#/add",
+      "icons": [
+        {
+          "src": "/assets/shortcuts/add-story.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Lihat Peta Cerita",
+      "short_name": "Peta",
+      "description": "Jelajahi cerita di peta interaktif",
+      "url": "/#/map",
+      "icons": [
+        {
+          "src": "/assets/shortcuts/map.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Koleksi Cerita",
+      "short_name": "Cerita",
+      "description": "Lihat semua cerita dari komunitas",
+      "url": "/#/home",
+      "icons": [
+        {
+          "src": "/assets/shortcuts/stories.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ]
+}
